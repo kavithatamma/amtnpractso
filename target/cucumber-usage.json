@@ -1,0 +1,92 @@
+[
+  {
+    "source": "^I enter valid \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter valid \"kavithatamma@hotmail.com\" and \"Govinda@0711\"",
+        "aggregatedDurations": {
+          "average": 2.2434347,
+          "median": 2.2434347
+        },
+        "durations": [
+          {
+            "duration": 2.2434347,
+            "location": "login_mul_values.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on homepage$",
+    "steps": [
+      {
+        "name": "I am on homepage",
+        "aggregatedDurations": {
+          "average": 0.7270677,
+          "median": 0.7270677
+        },
+        "durations": [
+          {
+            "duration": 0.7270677,
+            "location": "login_mul_values.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should  login successfully$",
+    "steps": [
+      {
+        "name": "I should  login successfully",
+        "aggregatedDurations": {
+          "average": 0.134091,
+          "median": 0.134091
+        },
+        "durations": [
+          {
+            "duration": 0.134091,
+            "location": "login_mul_values.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Sign in link$",
+    "steps": [
+      {
+        "name": "I click on Sign in link",
+        "aggregatedDurations": {
+          "average": 2.7494749,
+          "median": 2.7494749
+        },
+        "durations": [
+          {
+            "duration": 2.7494749,
+            "location": "login_mul_values.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^AUTHENTICATION page should be loaded$",
+    "steps": [
+      {
+        "name": "AUTHENTICATION page should be loaded",
+        "aggregatedDurations": {
+          "average": 0.1375054,
+          "median": 0.1375054
+        },
+        "durations": [
+          {
+            "duration": 0.1375054,
+            "location": "login_mul_values.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+Feature: Login
+
+  Scenario Outline: Login with valid details  [90m# login_mul_values.feature:3[0m
+    [36mGiven [0m[36mI am on homepage[0m
+    [36mWhen [0m[36mI click on Sign in link[0m
+    [36mThen [0m[36mAUTHENTICATION page should be loaded[0m
+    [36mThen [0m[36mI enter valid "<uname>" and "<pwd>"[0m
+    [36mThen [0m[36mI should  login successfully[0m
+
+    Examples: 
+
+  Scenario Outline: Login with valid details                         [90m# login_mul_values.feature:11[0m
+    [32mGiven [0m[32mI am on homepage[0m                                           [90m# StepDef.i_am_on_homepage()[0m
+    [32mWhen [0m[32mI click on Sign in link[0m                                     [90m# StepDef.i_click_on_Sign_in_link()[0m
+    [32mThen [0m[32mAUTHENTICATION page should be loaded[0m                        [90m# StepDef.authentication_page_should_be_loaded()[0m
+    [32mThen [0m[32mI enter valid "[0m[32m[1mkavithatamma@hotmail.com[0m[32m" and "[0m[32m[1mGovinda@0711[0m[32m"[0m [90m# StepDef.i_enter_valid_and(String,String)[0m
+    [32mThen [0m[32mI should  login successfully[0m                                [90m# StepDef.i_should_login_successfully()[0m

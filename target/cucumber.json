@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 25844604900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with valid details",
+        "description": "",
+        "id": "login;login-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 33900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 727067700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "StepDef.i_am_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2749474900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on Sign in link",
+            "match": {
+              "location": "StepDef.i_click_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137505400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "AUTHENTICATION page should be loaded",
+            "match": {
+              "location": "StepDef.authentication_page_should_be_loaded()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2243434700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter valid \"kavithatamma@hotmail.com\" and \"Govinda@0711\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kavithatamma@hotmail.com",
+                  "offset": 15
+                },
+                {
+                  "val": "Govinda@0711",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDef.i_enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134091000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should  login successfully",
+            "match": {
+              "location": "StepDef.i_should_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login_mul_values.feature"
+  }
+]
