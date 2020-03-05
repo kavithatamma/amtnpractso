@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d7eda1e-3f42-4b3c-a6ed-7d6feb3cea17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/auto_prac/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/auto_prac/RunCukesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/auto_prac/RunCukesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/auto_prac/RunCukesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,5 +201,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="85" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1580727571646" />
+    <state x="390" y="0" width="586" height="728" key="find.popup" timestamp="1583400952308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="586" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583400952308" />
   </component>
 </project>
