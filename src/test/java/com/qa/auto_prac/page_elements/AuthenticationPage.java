@@ -6,6 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class AuthenticationPage extends DriverManager {
+
+    /** page factory
+     *
+     */
     @FindBy(id = "email")
     private WebElement emailId;
     @FindBy(id = "passwd")
